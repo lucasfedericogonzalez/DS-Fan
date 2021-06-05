@@ -30,11 +30,18 @@ html {
 h3 {
   text-align: center;
   font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+  font-size: 40px; }
+
+h4 {
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: orange;
   font-size: 40px; }
 
 p {
   font-size: 30px;
-  font-family: 'Roboto Condensed', sans-serif; }
+  font-family: 'Roboto', sans-serif; }
 
 ul {
   list-style-type: none;
@@ -57,9 +64,10 @@ img {
 #contenedor {
   display: grid;
   grid-template-columns: 48% 48%;
-  grid-template-rows: 600px 600px; }
+  grid-template-rows: auto; }
   #contenedor #divTexto {
-    margin: 2%; }
+    margin: 2%;
+    font-size: 2px; }
   #contenedor #divVideo {
     color: black;
     text-align: center;
@@ -128,3 +136,41 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center; }
+
+footer {
+  background-color: white;
+  font-family: 'Courier New', Courier, monospace; }
+
+#clases {
+  display: grid;
+  grid-template-columns: 49% 49%;
+  grid-template-rows: auto;
+  border: solid 2px white;
+  color: white;
+  margin: 4px;
+  text-align: center; }
+
+#precuelas {
+  display: grid;
+  grid-template-columns: 99.9%;
+  grid-template-rows: auto; }
+  #precuelas .ds2 {
+    background-image: url(../img/fondoB.jpg);
+    color: white;
+    border: solid 2px white;
+    margin: 4px; }
+  #precuelas .ds3 {
+    background-image: url(../img/fondoC.jpg);
+    color: white;
+    border: solid 2px white;
+    margin: 4px; }
+  #precuelas .demonS {
+    background-image: url(../img/demonsouls.jpg);
+    color: white;
+    border: solid 2px white;
+    margin: 4px; }
+  #precuelas .bloodborne {
+    background-image: url(../img/bloodborne.jpg);
+    color: white;
+    border: solid 2px white;
+    margin: 4px; }
