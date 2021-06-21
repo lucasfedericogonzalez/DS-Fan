@@ -55,6 +55,9 @@ ul {
     text-align: center;
     border: solid black 1.8px; }
 
+ul li a:hover {
+  color: black; }
+
 img {
   height: auto;
   width: auto;
@@ -151,9 +154,8 @@ footer {
   text-align: center; }
 
 #precuelas {
-  display: grid;
-  grid-template-columns: 99.9%;
-  grid-template-rows: auto; }
+  display: flex;
+  flex-direction: column; }
   #precuelas .ds2 {
     background-image: url(../img/fondoB.jpg);
     color: white;
@@ -174,3 +176,30 @@ footer {
     color: white;
     border: solid 2px white;
     margin: 4px; }
+
+.inicio {
+  background-image: url(../img/fondoA.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.index {
+  background-color: black; }
+
+.historia {
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.clases {
+  background-image: url(../img/fondoClases.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.precuelas {
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+@media only screen and (max-width: 788px) {
+  #contenedor {
+    grid-template-columns: 1fr; } }
